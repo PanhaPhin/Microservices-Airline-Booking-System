@@ -23,7 +23,6 @@ public class CityRequest {
     private String cityCode;
 
 
-
     @NotBlank(message = "Country code is required")
     @Size(max = 100)
     private String countryCode;

@@ -1,5 +1,5 @@
 server:
-  port: 5004
+  port: 5003
 
 spring:
   application:
@@ -8,5 +8,10 @@ spring:
   datasource:
     url: jdbc:mysql://localhost:3306/yt_airline_location_db
     username: root
-    password: Panha@168$
+    password: "Panha@168$"
     driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true

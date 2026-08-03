@@ -34,7 +34,7 @@ public class CityMapper {
 
     }
 
-    public static City updateEntity(City city, @org.jetbrains.annotations.UnknownNullability CityRequest request){
+    public static City updateEntity(City city, CityRequest request){
         if(request.getName() != null){
             city.setName(request.getName().trim());
 

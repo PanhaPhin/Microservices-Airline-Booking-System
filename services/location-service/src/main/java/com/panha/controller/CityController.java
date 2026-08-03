@@ -66,11 +66,9 @@ public class CityController {
     public ResponseEntity<ApiResponse> deleteCity(@PathVariable Long id)
         throws Exception {
 
-        cityService.deleteCity(id);
         return ResponseEntity.ok(new ApiResponse("City deleted successfully"));
 
     }
-
 
 
 }

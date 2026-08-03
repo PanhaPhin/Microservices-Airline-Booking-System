@@ -1,4 +1,4 @@
-package com.panha.panha;
+package com.panha;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

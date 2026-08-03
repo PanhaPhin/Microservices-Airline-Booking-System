@@ -4,7 +4,9 @@ import com.panha.payload.request.CityRequest;
 import com.panha.payload.response.CityResponse;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
+import org.springframework.stereotype.Service;
 
+@Service
 public interface CityService {
 
     CityResponse createCity(CityRequest request);

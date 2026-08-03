@@ -1,6 +1,4 @@
 package com.panha.payload.response;
-
-
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -10,5 +8,5 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 public class ApiResponse {
 
-    private  String message;
+    private String message;
 }
