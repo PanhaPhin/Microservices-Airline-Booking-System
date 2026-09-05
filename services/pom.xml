@@ -18,6 +18,7 @@
     <description> Aggregator for cloud infrastructure modules (Eureka ,Config , Gateway)</description>
 
     <modules>
+        <module>user-service</module>
         <module>location-service</module>
     </modules>
     <dependencies>
